@@ -1,0 +1,117 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #000;
+    color: #fff;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    position: relative;
+    text-align: center;
+    color: yellow;
+}
+
+header img {
+    height: 500px;
+    border-radius: 5px;
+}
+
+.header-text {
+    position: absolute;
+    top: 10%;
+    left: 37%;
+}
+
+.header-text h1 {
+    font-size: 3em;
+    margin: 0;
+}
+
+.header-text img {
+    margin-top: 10px;
+    width: 50px;
+}
+
+main {
+    padding: 20px;
+}
+
+.about {
+    background-color: #111;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.about h2 {
+    border-bottom: 1px solid #444;
+    padding-bottom: 10px;
+}
+
+.about p {
+    line-height: 1.6;
+}
+
+.about a {
+    color: #0af;
+}
+
+.about-images {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+.about-images img {
+    width: 200px;
+    border-radius: 30px;
+}
+
+.carrer{
+    background-color: #111;
+    padding: 20px;
+    border-radius: 10px;
+    margin-top: 20px;
+    line-height: 3;
+}
+.carrer h2 {
+    border-bottom: 1px solid #444;
+}
+
+.club {
+    background-color: #111;
+    padding: 20px;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+.club h2 {
+    border-bottom: 1px solid #444;
+    padding-bottom: 10px;
+}
+
+.teams {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+   
+}
+
+.team {
+    text-align: center;
+}
+
+.team img {
+    width: 100px;
+    height: auto;
+    border-radius: 10px;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #000;
+    color: #666;
+}

@@ -1,0 +1,77 @@
+/* picking color from color.io */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #F6F5F2;
+  margin: 0;
+  padding: 0;
+  color: #333;
+}
+.container {
+  width: 100%;
+  max-width: 1000px;
+  margin: auto;
+  padding: 20px;
+}
+header, section, footer {
+  padding: 20px;
+  margin-bottom: 30px;
+  border-bottom: 1px solid #ddd;
+  
+}
+header {
+  text-align: center;
+  background-color: #B2C8BA;
+}
+section h2 {
+  color: #6B8A7A;
+}
+.about img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+}
+.skills ul {
+  padding: 0;
+  text-align: left;
+}
+.skills ul li {
+  background-color: #EEEEEE;
+  padding: 10px;
+  margin: 5px ;
+  border-radius: 5px;
+}
+.projects {
+  display: flex;
+  gap: 20px;
+}
+
+.project {
+  box-shadow: 0 0 10px rgba(0,0,0,0.5);
+  border-radius: 8px;
+  max-width: 400px;
+  text-align: center;
+}
+.projects h2{
+  margin-right: 210px;
+}
+.project img {
+  width: 100%;
+  border-radius: 10px;
+  margin-bottom: 15px;
+}
+.contact a {
+  text-decoration: none;
+}
+.resume a {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #4A90E2;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+}
+footer {
+  text-align: center;
+  background-color: #B2C8BA;
+  padding: 10px;
+}
